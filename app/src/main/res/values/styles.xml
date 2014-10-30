@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="TextView">
+        <item name="android:textColor">#ffff</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+
+    <style name="EditText">
+        <item name ="android:background">@drawable/background_edittext</item>
+        <item name="android:textCursorDrawable">@drawable/custom_cursor</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textColor">#ffff</item>
+        <item name="android:textColorHint">#ffff</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="BackgroundActivity">
+        <item name="android:background">@drawable/back</item>
+    </style>
+
+    <style name="TextButton">
+        <item name="android:textColor">#ffff</item>
+    </style>
+
+    <style name="TextViewColor">
+        <item name="android:textColor">#ffc60300</item>
+    </style>
+
+
+</resources>

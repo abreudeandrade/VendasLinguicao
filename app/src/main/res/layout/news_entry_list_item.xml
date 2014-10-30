@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout for individual news entries in a list -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/ivIconeVendedor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:padding="3dp" />
+
+    <!-- Title of the news entry -->
+    <TextView
+        android:id="@+id/tvNomeVendedor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ivIconeVendedor"
+        android:layout_alignTop="@id/ivIconeVendedor"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <!-- Subtitle contains author and date -->
+    <TextView
+        android:id="@+id/tvFraseVendedor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tvNomeVendedor"
+        android:layout_below="@+id/tvNomeVendedor"
+        android:textSize="15sp" />
+
+        />
+    <TextView
+        android:id="@+id/tvDistVendedor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvFraseVendedor"
+        android:textSize="13sp"
+        android:layout_alignLeft="@+id/tvFraseVendedor"/>
+
+</RelativeLayout>

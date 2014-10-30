@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:background="@drawable/back"
+                tools:context="com.example.franciscovictor.vendaslinguicao.vendedor.VendedorMain">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Nome:"
+            android:textSize="20dp"
+            style="@style/TextViewColor"
+            android:background="@drawable/background_textview"
+            android:id="@+id/textNomeVendedor"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Disponibilidade:"
+            android:layout_marginTop="5dp"
+            style="@style/TextViewColor"
+            android:textSize="20dp"
+            android:background="@drawable/background_textview"
+            android:id="@+id/textDispVendedor"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/background_edittext"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Tempo de Update (min):"
+                android:textSize="20dp"
+                android:textColor="#ffff"
+                android:id="@+id/textView4"
+                android:layout_weight="0"
+                android:layout_gravity="center"/>
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10"
+                    android:textSize="20dp"
+                    android:textColor="#ffff"
+                    android:id="@+id/rbTen"
+                    android:checked="true"
+                    android:layout_weight="0.36"
+                    />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="15"
+                    android:textColor="#ffff"
+
+                    android:textSize="20dp"
+                    android:id="@+id/rbFifteen"
+                    android:checked="false"
+                    android:layout_weight="0.35"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="30"
+                    android:textSize="20dp"
+                    android:textColor="#ffff"
+
+                    android:id="@+id/rbThirty"
+                    android:checked="false"
+                    android:layout_weight="0.35"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+        <Switch
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/TextViewColor"
+            android:textColor="#ffff"
+            android:background="@drawable/background_edittext"
+            android:textSize="20dp"
+            android:text="Status: "
+            android:textOff="Indisponível"
+            android:textOn="Disponível"
+            android:id="@+id/switchDispVendedor"
+            android:checked="false"
+            android:layout_marginTop="5dp"
+            android:singleLine="false"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descrição"
+            android:textSize="20dp"
+            android:textColor="#ffff"
+            android:textColorHint="#ffff"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/background_edittext"
+            android:id="@+id/editAtualizaDescricao"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Salvar Alterações"
+            android:background="@drawable/custom_button"
+            android:textColor="#ffff"
+            android:id="@+id/btSalvarAlteracoes"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+</RelativeLayout>

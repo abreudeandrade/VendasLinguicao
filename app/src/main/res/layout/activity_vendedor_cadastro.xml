@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/back"
+    tools:context="com.example.franciscovictor.vendaslinguicao.VendedorCadastro">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="0.95">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView"
+                android:src="@drawable/icon"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="CPF"
+                android:textColorHint="#ffff"
+                android:id="@+id/editCpfCadastro"
+                android:background="@drawable/background_edittext"
+                android:layout_gravity="center_horizontal"
+                android:inputType="number"
+                android:ems="10"
+                android:textSize="20dp"
+                android:textColor="#ffff"
+                style="@style/EditText"
+                android:maxLength="11" />
+
+            <EditText
+                android:textColorHint="#ffff"
+                style="@style/EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:textSize="20dp"
+                android:ems="10"
+                android:hint="Senha"
+                android:id="@+id/editSenhaCadastro"
+                android:textColor="#ffff"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/background_edittext"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:textColorHint="#ffff"
+                style="@style/EditText"
+                android:ems="10"
+                android:hint="Senha Novamente"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"
+                android:textColor="#ffff"
+                android:background="@drawable/background_edittext"
+                android:id="@+id/editSenhaCadastroConfirma"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="20dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Confirmar Cadastro"
+                android:id="@+id/btConfirmarCadastro"
+                android:textColor="#ffff"
+                android:background="@drawable/custom_button"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

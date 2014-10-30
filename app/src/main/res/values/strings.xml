@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LGApp</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_perfil">PerfilActivity</string>
+    <string name="title_activity_esqueceu_senha">EsqueceuSenha</string>
+
+    <!-- Login Screen -->
+
+    <string name="Login">LOGIN</string>
+    <string name="Usuario">Usuário</string>
+    <string name="Senha">Senha</string>
+    <string name="Entrar">ENTRAR</string>
+    <string name="Registrar">REGISTRAR</string>
+    <string name="EsqueceuSenha">ESQUECEU A SENHA?</string>
+
+    <!-- Cadastro Screen -->
+
+    <string name="DadosAcesso">DADOS DE ACESSO</string>
+    <string name="Nome">Nome</string>
+    <string name="Email">Email</string>
+    <string name="SenhaNov">Digite a senha novamente</string>
+    <string name="Avancar">AVANÇAR</string>
+    <string name="DadosPessoais">DADOS PESSOAIS</string>
+    <string name="DataNascimento">Data de Nascimento</string>
+    <string name="Altura">Altura (cm)</string>
+    <string name="Esportes">Esportes:</string>
+    <string name="Futebol">Futebol</string>
+    <string name="Futsal">Futsal</string>
+    <string name="Volei">Vôlei</string>
+    <string name="Basquete">Basquete</string>
+    <string name="Tenis">Tênis</string>
+    <string name="Concluir">CONCLUIR</string>
+    <string name="Voltar">VOLTAR</string>
+
+    <!-- Menu Screen -->
+
+    <string name="Menu">MENU</string>
+    <string name="Perfil">PERFIL</string>
+    <string name="Partidas">PARTIDAS</string>
+    <string name="Buscador">BUSCADOR</string>
+    <string name="Configuracoes">CONFIGURAÇÕES</string>
+    <string name="Sair">SAIR</string>
+
+    <!-- Perfil Screen -->
+
+    <string name="AlterarDados">ALTERAR DADOS</string>
+
+    <!-- Esqueceu a Senha Screen -->
+
+    <string name="RecuperarSenha">RECUPERAR SENHA</string>
+    <string name="EnviarSenha">ENVIAR</string>
+    
+    <!-- Criar Partida -->
+    
+    <string name="Endereco">Endereço</string>
+    <string name="Rua">Rua</string>
+    <string name="Numero">Número</string>
+    <string name="Bairro">Bairro</string>
+    <string name="Horario">Horário</string>
+    <string name="Duracao">Duração:</string>
+    <string name="Preco">Preço</string>
+    <string name="Esporte">Esporte</string>
+
+    <string-array name="Horas">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="Minutos">
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+    </string-array>
+</resources>
